@@ -29,6 +29,17 @@ li{
    margin-left: 43px;
 }
 
+
+
+/* inizio seconda parte banner e riquadri */
+
+.banner{
+    width: 100px;
+    margin-left:47px ;
+    height: 460px;
+    width: 810px;
+}
+
 .row::after{
     content: "";
     display: table;
@@ -50,7 +61,7 @@ main{
 
 .firstblock{
     height: 400px;
-    background-color: rgb(235, 203, 22);
+    /* background-color: rgb(235, 203, 22); */
     width: 100%;
     float: left;
     margin-bottom: 40px;
@@ -70,7 +81,7 @@ main{
     height: 600px;
     width: 89%;
     /* border: solid 4px red; */
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 6%;
 }
 
