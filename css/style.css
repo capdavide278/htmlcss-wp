@@ -34,10 +34,35 @@ li{
 /* inizio seconda parte banner e riquadri */
 
 .banner{
-    width: 100px;
-    margin-left:47px ;
+
+    border-radius: 5px;
+    object-fit: cover;
     height: 460px;
-    width: 810px;
+    width: 75%;
+    display: block;
+    position: relative;
+    margin-left:47px ;
+    filter: brightness(0.8) ;
+}
+
+.scritte-banner{
+    position: absolute;
+    height: 60px;
+    width: 600px;
+    left: 290px;
+    bottom: 380px;
+    color: white;
+    font-size: 35px;
+}
+
+.scritte-banner-due{
+    position:absolute;
+    height: 60px;
+    width: 600px;
+    color: white;
+    font-size: 18px;
+    bottom: 300px;
+    left: 290px;
 }
 
 .row::after{
@@ -110,10 +135,17 @@ main{
     background-color: rgb(16, 169, 240);
 }
 
+
+
 footer{
     height: 60px;
     width: 80%;
     margin-left: 200px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     margin-bottom: 30px;
+    text-align: center;
+}
+
+.symbol{
+    color: red;
 }
