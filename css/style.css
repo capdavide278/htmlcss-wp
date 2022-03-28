@@ -38,10 +38,9 @@ li{
     border-radius: 5px;
     object-fit: cover;
     height: 460px;
-    width: 75%;
+    width: 100%;
     display: block;
     position: relative;
-    margin-left:47px ;
     filter: brightness(0.8) ;
 }
 
@@ -115,7 +114,7 @@ main{
     height: 70px;
     float: top;
     width: 100%;
-    padding-left: 42px;
+    /* padding-left: 42px; */
     padding-top: 10px;
 }
 
@@ -164,8 +163,8 @@ main{
 }
 
 h5{
-    margin-left: 50px;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .scrittasinistra-scrittadestra{
